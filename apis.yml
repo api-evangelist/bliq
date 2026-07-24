@@ -1,7 +1,24 @@
 aid: bliq
 name: Bliq
-description: Bliq is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bliq is a Berlin-based premium driverless-car subscription service rolling out across
+  Europe. Instead of owning a car or paying per ride, members subscribe monthly to a private autonomous
+  vehicle that Bliq charges, cleans, insures, maintains, and parks on their behalf. Cars are booked for
+  time windows (hours or days) rather than single trips, every journey is remotely supervised by licensed
+  local operators, and there is no surge pricing. Backed by Speedinvest, Bliq positions itself as
+  "ownership without ownership." The company currently operates a consumer marketing site with
+  early-access and waitlist flows and does not publish a public developer API, documentation, or SDKs.
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/pwM3T0Cjmqt5REAb2uMMs73yFw.png
 url: https://raw.githubusercontent.com/api-evangelist/bliq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Mobility
+- Autonomous Vehicles
+- Car Subscription
+- Transportation
+- Automotive
+- Berlin
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://bliq.ai
+- type: SignUp
+  url: https://bliq.ai/waitlist
+- type: PrivacyPolicy
+  url: https://bliq.ai/privacy
+- type: TermsOfService
+  url: https://bliq.ai/toc
+- type: DomainSecurity
+  url: security/bliq-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

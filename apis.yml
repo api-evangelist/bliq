@@ -7,6 +7,17 @@ description: Bliq is a Berlin-based premium driverless-car subscription service 
   local operators, and there is no surge pricing. Backed by Speedinvest, Bliq positions itself as
   "ownership without ownership." The company currently operates a consumer marketing site with
   early-access and waitlist flows and does not publish a public developer API, documentation, or SDKs.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
